@@ -1,19 +1,18 @@
-import Hero from "./Components/Hero"
-import Navbar from "./Components/Navbar"
-import Accreadited from "./Components/Accreadited"
-import LiveClass from "./Components/LiveClass"
-import Footer from "./Components/Footer"
+
+import Cart from "./Pages/Cart"
+import Courseselect from "./Pages/Courseselect"
+import Liveclass from "./Pages/Liveclass"
+import Payment from "./Pages/Payment"
 
 function App() {
  
 
   return (
     <div>
-      <Navbar />
-      <Hero />
-      <Accreadited />
-      <LiveClass />
-      <Footer />
+      {/* <Liveclass /> */}
+      <Courseselect />
+      {/* <Payment /> */}
+      {/* <Cart /> */}
     </div>
   )
 }

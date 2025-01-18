@@ -15,7 +15,7 @@ const Hero = () => {
                 </ul>
                 </div>
                 <h2 className="text-xl font-bold pt-10 pb-5">Live Classes available in English, தமிழ், हिंदी, తెలుగు</h2>
-                <button className="px-4 py-2 bg-red-500 rounded-full ">Explore Programs</button>
+                <button className="px-4 py-2 bg-red-500 rounded-full shadow-2xl">Explore Programs</button>
             </div>
             
         </div>
