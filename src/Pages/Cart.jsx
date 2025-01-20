@@ -4,7 +4,7 @@ import Foote from "../Components/Foote";
 
 const Cart = () => {
   return (
-    <div>
+    <div className="container mx-auto">
         <Navbar />
         <div className="min-h-screen bg-gray-100 p-6">
     

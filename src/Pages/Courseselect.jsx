@@ -5,7 +5,7 @@ import Foote from '../Components/Foote'
 
 const Courseselect = () => {
     return (
-        <div>
+        <div className='container mx-auto'>
             <Navbar />
             <div className="px-6 py-8 flex justify-evenly text-white bg-[#1E1E1E]">
               <div className='w-1/2'>  <h1 className="text-3xl font-semibold ">
@@ -31,7 +31,7 @@ const Courseselect = () => {
               <div className='flex flex-col items-end '>
                  <div className='bg-white rounded-t-lg rounded-b-lg'>
                  <div className="w-64 h-48 bg-gray-400 rounded-t-lg flex justify-center items-center">
-                            <h1 className="font-bold text-3xl ">404</h1>
+                            <h1 className="font-bold text-3xl text-black">404</h1>
                         </div>
                         <p className="text-2xl font-bold text-black text-center my-5">₹3,699</p>
                  </div>
